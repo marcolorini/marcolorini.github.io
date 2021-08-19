@@ -15,20 +15,25 @@ div.top{
     margin: 0;
 }
 
-#leftbox {
-    float:left; 
-    width: 96px;
-    height: 96px;
-    display: block;
-    margin: 35px auto;
-    border-radius: 25%;
-    border-style: solid;
+.container {
+    text-align:center;
+    width:500px;
+    height:200px;
+    float:center;
 }
-
-#rightbox{
-      float:right; 
-      width:50%;
-      height:280px;
+#st-box {
+    float:left;
+    display:inline-block;
+    width:96px;
+    height:200px;
+}
+#nd-box {
+    float:right;
+    display:inline-block;
+    width:350px;
+    height:200px;
+    margin-left:20px;
+    margin-top:15px;
 }
 
 #userPhoto{
@@ -57,6 +62,7 @@ div.top{
     width: 100%;
     display: block;
     margin: 27px auto;
+    margin-top: 5px;
 }
 
 h1{
